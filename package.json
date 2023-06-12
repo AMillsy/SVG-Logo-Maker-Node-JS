@@ -1,0 +1,22 @@
+{
+  "name": "svg-logo-maker-node-js",
+  "version": "1.0.0",
+  "description": "Node js command-line application that takes users inputs and then generates a logo with the file type of SVG (Scalable Vector Graphic)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMillsy/SVG-Logo-Maker-Node-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMillsy/SVG-Logo-Maker-Node-JS/issues"
+  },
+  "homepage": "https://github.com/AMillsy/SVG-Logo-Maker-Node-JS#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
