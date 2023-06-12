@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AMillsy/SVG-Logo-Maker-Node-JS#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "inquirer-maxlength-input-prompt": "^1.0.2"
   }
 }
