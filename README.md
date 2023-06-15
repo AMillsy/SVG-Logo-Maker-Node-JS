@@ -13,7 +13,7 @@ Node js command-line application that takes users inputs and then generates a lo
 
 ## Walkthrough Video
 
-[Walkthrough](youtube.com)
+[Walkthrough](https://youtu.be/5fnFy5SeHJE)
 
 ## User Story
 
