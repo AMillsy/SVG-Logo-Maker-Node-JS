@@ -24,14 +24,14 @@ describe(`Shapes`, () => {
     it(`Should render a SVG Red Circle Element`, () => {
       const colour = "red";
       const shape = new Circle(colour);
-      const expectResult = `<circle cx="150" cy="100" r="80" fill="${colour}" />`;
+      const expectResult = `<circle cx="150" cy="100" r="100" fill="${colour}" />`;
 
       expect(shape.render()).toEqual(expectResult);
     });
     it(`Should render a SVG yellow Circle Element`, () => {
       const colour = "yellow";
       const shape = new Circle(colour);
-      const expectResult = `<circle cx="150" cy="100" r="80" fill="${colour}" />`;
+      const expectResult = `<circle cx="150" cy="100" r="100" fill="${colour}" />`;
 
       expect(shape.render()).toEqual(expectResult);
     });
@@ -43,14 +43,14 @@ describe(`Shapes`, () => {
     it(`Should render a SVG yellow Triangle Element`, () => {
       const colour = "yellow";
       const shape = new Triangle(colour);
-      const expectResult = `<polygon points="150,0 0,200 300,200" fill="${colour}" />`;
+      const expectResult = `<polygon points="150,0 0,150 300,150" fill="${colour}" />`;
 
       expect(shape.render()).toEqual(expectResult);
     });
     it(`Should render a SVG orange Triangle Element`, () => {
       const colour = "orange";
       const shape = new Triangle(colour);
-      const expectResult = `<polygon points="150,0 0,200 300,200" fill="${colour}" />`;
+      const expectResult = `<polygon points="150,0 0,150 300,150" fill="${colour}" />`;
 
       expect(shape.render()).toEqual(expectResult);
     });
