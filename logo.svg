@@ -1,4 +1,4 @@
 <svg width="300" height="200">
-    <rect x="50" width="200" height="200" fill="white" />
-    <text x="50%" y="50%" text-anchor="middle" fill="blue">dad</text>
+    <polygon points="150,0 0,200 300,200" fill="white" />
+    <text x="50%" y="50%" text-anchor="middle" fill="blue">DAD</text>
     </svg>
