@@ -1,15 +1,5 @@
-inquirer.registerPrompt("maxlength-input", maxLengthInputPrompt);
+const { CLI } = require("./lib/cli");
 
-function init() {
-  inquirer.prompt(questions).then((response) => "Create the SVG");
-}
+const cli = new CLI();
 
-function createSVG(data) {
-  const svg = SVGMaker(data);
-
-  fs.writeFile("logo.svg", svg, (err) =>
-    err ? console.error(err) : console.log("Success")
-  );
-}
-
-init();
+cli.run();
