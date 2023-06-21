@@ -78,6 +78,12 @@ Find logo.svg and then RMB and then press Preview SVG
 
 ![SVG](./READMEImages/SVG.png)
 
+or
+
+Find assets/Logo.svg and then RMB and then press Open in default Browser
+
+![SVG in Browser](./READMEImages/SVGBrowser.png)
+
 ## Test
 
 ```bash
