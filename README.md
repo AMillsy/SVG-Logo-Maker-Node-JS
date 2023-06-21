@@ -58,6 +58,8 @@ npm i;
 
 ## Usage
 
+A demo SVG can be found [here](./assets/logo.svg)
+
 ### Run the project
 
 Run the app by using:
