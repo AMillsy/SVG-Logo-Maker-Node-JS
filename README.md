@@ -74,7 +74,7 @@ npm run start
 
 ### Open the SVG
 
-Find logo.svg and then RMB and then press Preview SVG
+Find assets/logo.svg and then RMB and then press Preview SVG
 
 ![SVG](./READMEImages/SVG.png)
 
